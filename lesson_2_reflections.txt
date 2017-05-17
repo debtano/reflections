@@ -22,3 +22,8 @@ commited version (with git diff --staged) it is very convenient to have a
 staging area were 1) individual files or a group of files related with a recent
 code change can be manage separated 2) code changes on those files could be
 checked against last commit.
+
+Branches are very helpful to experiment changes in the code without having to
+go back and forward in the master branch. You have also the opportunity to
+keep the history of the project in different levels of evolution. Additionally
+new features or experimental features can be reviewed and tested 
