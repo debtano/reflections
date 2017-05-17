@@ -1,0 +1,47 @@
+Having reviewed the diff output helps focus on where the problem is
+basically because of 'plus' and 'minus' symbols help, also because
+it reduce the size of code to review and it also helps you concentrate
+on reviewing your or others code with focus on findings errors which
+is not something you do when you look at your code from the perspective
+of improving functionality or user experience.
+
+Having the opportunity to save the history of your work helps figuring
+out how your codes evolve, what were your past problems, which options
+you used to solve them, where are the areas were you failed the most
+what are your weakness and your strong points. Sometimes a solution in
+the past can be reused, sometimes a problem you correct couple of times
+gets incorporated in your code and wont appear again. The history of
+your code is the history of your choices and the path of your analysis.
+
+I think the benefit of having to commit changes manually is the exercise
+of applying the right criteria to do it. I need to think on what i am
+doing, on the size of the work being done and on the logical relationship
+between the parts. It is also a good opportunity to document the changes
+instead of leaving that to the moment i have written to much functionality.
+Having automatic saves free me of the responsability but in this case that
+responsability is also an opportunity to do important thinks for the code.
+
+I think that saving multiple files together is a code friendly concept.
+In general, document oriented tools -like office suites- focus its
+functionality in the unit of work they understand : a document. A document
+could be mapped, as a conceptual unit, with a work to be done. Code is
+different; in general the unit of work "code" or "app" is not mapped to
+a document abstraction but to a group of files that made up the system.
+For that reasson is so convenient to have multi files version tracking.
+
+Log and diff git commands are a convenient way to follow a procedure
+to review files history. Since git manages version for multiple files
+the log command will always show the changes made to any file on the
+repository. When i detected which were the affected files i can use diff
+to specifically identify the code chages inside the file.
+
+Using version control makes you fill more confident around making changes
+since it gives you the opportunity to move back and forward in your commit
+history until you reach the point where the mistake was introduced. It is
+a great functionality to give you more freedom and the opportunity to
+test, learn and improve.
+
+I would like to use git to help me keep track of some small developments
+i am trying to accomplish, to keep track of my course assignements, to share
+code with people that will help improve my programming skills and to try
+to help others maintain their code.
