@@ -14,3 +14,11 @@ into a staging area which is the previous step to became a commit group. The
 advantage of having a staging area is to organize , or separate the files we
 want to became a commit. Without that staging area the operation will be a
 all or nothing operation.
+
+We can use the staging area to make sure that logical changes can be clearly
+identified in individual commits. Since moving a file to the staging area
+means that you can compare that version (recently modified) with the last
+commited version (with git diff --staged) it is very convenient to have a
+staging area were 1) individual files or a group of files related with a recent
+code change can be manage separated 2) code changes on those files could be
+checked against last commit.
