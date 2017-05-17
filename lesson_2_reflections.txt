@@ -1,0 +1,5 @@
+When you initialize a repository (with git init), a simple repository becames
+a git repository. A hidden directory (.git) contains all the artifacts required
+by git to keep track of commits, status, checkouts, branches, etc.
+git status can be used to understand which files in the repository are under
+version control. git log can be used to see the existing commits. 
