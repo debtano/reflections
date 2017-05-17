@@ -2,4 +2,15 @@ When you initialize a repository (with git init), a simple repository becames
 a git repository. A hidden directory (.git) contains all the artifacts required
 by git to keep track of commits, status, checkouts, branches, etc.
 git status can be used to understand which files in the repository are under
-version control. git log can be used to see the existing commits. 
+version control. git log can be used to see the existing commits.
+
+When we have decided the working directory to put our project files this
+namespace is not related with git until we initialized it with git init. At the
+time, the working directory becames a git repository. So, first difference is
+that git did not know about a working directory until it becames a repository.
+After we have a repository, files wont be under version control until we
+add the files to it. To do that , files go through the git add command to get
+into a staging area which is the previous step to became a commit group. The
+advantage of having a staging area is to organize , or separate the files we
+want to became a commit. Without that staging area the operation will be a
+all or nothing operation.
