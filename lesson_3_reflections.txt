@@ -21,4 +21,13 @@ the local machine is that , in case you change an artifact locally that
 someone also changed in the remote (or pushed to the remote) , you have the
 opportunity to compare origin/master with master (doing a fetch instead of a pull
 - that will be , before merging) and work thru the diff and changes required to
-synchronize. 
+synchronize.
+
+Collaborate without git and github would be a lot harder, i would say order of
+magnitude harder. All of us did it in the past : we create or receive some
+spreadsheet  file from someone and start interacting trying to agree on order
+of changes, leave the other one a message somewhere to let him know what the
+change was, try to alter the name of the files to let them know which file i am
+working on etc. Office suites use to include "change tracking" functionality
+for comments inside files but who "merges" them ?....Well , life is lot easier
+having git and github.
