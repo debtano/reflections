@@ -1,2 +1,10 @@
-I will use remote repositories every time i want to collaborate with other people and/or every time i would like to share some code or docs 
-to other people. I think it is a wonderfull idea because is the base to improve code , software and human activities in general.
+I will use remote repositories every time i want to collaborate with other people
+and/or every time i would like to share some code or docs
+to other people. I think it is a wonderfull idea because is the base to improve
+code , software and human activities in general.
+
+Manual pull and push changes helps keep code in better control. As it is the
+case with the staging area, this is an additional step that put you on hold for
+a moment to think in your decision. Additionally , you probably need to keep
+working on what you got locally before moving it to the shared repository so
+this is the ooportunity.
