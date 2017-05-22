@@ -15,3 +15,10 @@ and collaborators will know the origin of the repository (forked from) and you
 or your collaborators could clone those forks to the local machines and start
 working from that repository with the already mentioned cycle of changes, push
 or pull , commits and braches.
+
+The benefit of having a copy of the last state of the remote (origin/master) in
+the local machine is that , in case you change an artifact locally that
+someone also changed in the remote (or pushed to the remote) , you have the
+opportunity to compare origin/master with master (doing a fetch instead of a pull
+- that will be , before merging) and work thru the diff and changes required to
+synchronize. 
