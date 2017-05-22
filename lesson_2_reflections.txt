@@ -36,3 +36,11 @@ complicated to understand in a flat and sequential text.
 The result of merging two branches together is that, by means of timestamps,
 commits are interleaved for every file with commits in the repository. A new
 labeled branch contains the combined commits.
+
+Automatic merges has lot of pros even if we only take into account the fact
+that git, in a case of unsolved conflict, will alert and point the areas of the
+code that need your attention. In most of the cases, if you are working alone
+or have a good distribution of responsabilities over your code, automatic merging
+will work great. IN cases where manual intervention is required git will alert
+you and will give you the hints to do a manual review and to decide based on
+the knowledge of your code and the required interaction with your peers.
