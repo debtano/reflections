@@ -26,9 +26,13 @@ checked against last commit.
 Branches are very helpful to experiment changes in the code without having to
 go back and forward in the master branch. You have also the opportunity to
 keep the history of the project in different levels of evolution. Additionally
-new features or experimental features can be reviewed and tested
+new features or experimental features can be reviewed and tested.
 
 Visualization of the branches helps a lot because their combination and
 interrelation is a combination of lines and points in lines so a graph is very
 useful in this case. An structure of lines and branches of different lines is
 complicated to understand in a flat and sequential text.
+
+The result of merging two branches together is that, by means of timestamps,
+commits are interleaved for every file with commits in the repository. A new
+labeled branch contains the combined commits.
