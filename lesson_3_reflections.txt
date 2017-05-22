@@ -31,3 +31,14 @@ change was, try to alter the name of the files to let them know which file i am
 working on etc. Office suites use to include "change tracking" functionality
 for comments inside files but who "merges" them ?....Well , life is lot easier
 having git and github.
+
+I think that every time we are working with collaborators in common code that
+already has a master branch as a based code for production , we should build
+new changes in a separate local branch. We can push that new branch to github
+and use it as a way to collaborate in that new code with other. By the time
+we are all sure we are ready to merge we should work it through the pull
+request mechanism to merge into master. If any conflict arise, because someone
+else has changed same lines in the new branch or master, we'll need to go through
+the procedure of pulling master, merging locally into the new branch , solve
+conflicts, push new merged branch to remote an ask for a merge again through a
+pull request.
